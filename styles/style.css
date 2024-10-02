@@ -7,3 +7,26 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh; 
 }
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Espaçamento entre logo e texto */
+}
+
+@media (max-width: 767.98px) { /* Para telas menores que 768px */
+  header {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-self: center;
+      flex-direction: column; /* Empilha logo e texto verticalmente */
+  }
+
+  header img {
+      margin-right: 0; /* Remove a margem quando em coluna */
+  }
+}
