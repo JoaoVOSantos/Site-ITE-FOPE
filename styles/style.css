@@ -1,0 +1,9 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://www.socialbauru.com.br/wp-content/uploads/2024/05/vestibular-ite-2022-bauru-capa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+}
