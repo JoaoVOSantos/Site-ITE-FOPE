@@ -9,7 +9,7 @@ body {
 }
 
 .bg-img{
-  filter: blur(7px);
+  filter: blur(10px);
     /* Garante que a imagem cubra toda a área da tela */
     position: fixed;
     top: 0;
